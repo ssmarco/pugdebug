@@ -4,7 +4,7 @@ pugdebug is a standalone debugging client for PHP applications that uses Xdebug 
 
 A python 3.5, PyQt5 project.
 
-**NOTE**: Not maintained!
+**NOTE**: I am maintaining!
 
 ## running pugdebug
 
@@ -113,6 +113,8 @@ allows to stop debugging but also let the PHP script finish as it normally would
 
 The `Stop listening` (`F2`) action will tell pugdebug to stop listening
 to new incomming connections.
+
+The key `Ctrl+F` to Search and `Ctrl+G` to line.
 
 ## debugging cli scripts
 

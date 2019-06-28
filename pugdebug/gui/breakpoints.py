@@ -26,6 +26,7 @@ class PugdebugBreakpointViewer(QTreeWidget):
         self.setHeaderLabels(['File', 'Line', 'Full filename'])
 
         self.setColumnWidth(0, 350)
+        self.header().setStretchLastSection(False)
         self.setColumnHidden(2, True)
 
         self.itemDoubleClicked.connect(self.handle_item_double_clicked)
