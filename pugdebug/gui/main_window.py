@@ -200,7 +200,7 @@ class PugdebugMainWindow(QMainWindow):
         )
         self.run_debug_action.setShortcut(QKeySequence("F5"))
 
-        self.step_over_action = QAction("Over", self)
+        self.step_over_action = QAction("Step Over", self)
         self.step_over_action.setToolTip("Step over the next statement (F6)")
         self.step_over_action.setStatusTip(
             "Step to the next statement, if "
@@ -210,7 +210,7 @@ class PugdebugMainWindow(QMainWindow):
         )
         self.step_over_action.setShortcut(QKeySequence("F6"))
 
-        self.step_into_action = QAction("In", self)
+        self.step_into_action = QAction("Step In", self)
         self.step_into_action.setToolTip("Step into the next statement (F7)")
         self.step_into_action.setStatusTip(
             "Step to the next statement, if there is a function call involved "
@@ -219,7 +219,7 @@ class PugdebugMainWindow(QMainWindow):
         )
         self.step_into_action.setShortcut(QKeySequence("F7"))
 
-        self.step_out_action = QAction("Out", self)
+        self.step_out_action = QAction("Step Out", self)
         self.step_out_action.setToolTip("Step out of the current scope (F8)")
         self.step_out_action.setStatusTip(
             "Step out of the current scope and breaks on the next statement. "

@@ -50,8 +50,12 @@ The `IDE Key` setting allows to filter out messages from Xdebug based on this va
 * `F6` - Step Over
 * `F7` - Step In
 * `F8` - Step Out
+* `Ctrl+N` - New project
 * `Ctrl+F` - Search
+* `Ctrl+T` - Search for file
 * `Ctrl+G` - Go to line
+* `Ctrl+S` - Show settings
+* `Alt+F4` - Exit application
 
 ## Debugging sessions
 
