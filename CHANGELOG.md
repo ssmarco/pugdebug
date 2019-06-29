@@ -8,6 +8,10 @@
  - A simple file search dialog
  - Titles for project and settings dialogs
  - Simple logging, appending to ~/pugdebug.log
+ - UI improvements
+ - New Go to line window
+ - Better support on linux
+ - New readme
 
 ### Changed
  - Cursor in editor is now a regular arrow, read-only cursor

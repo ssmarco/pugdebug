@@ -81,11 +81,11 @@ The `Detach` action will detach the debugger from the current request, which all
 
 The `Stop listening` action will tell pugdebug to stop listening to new incomming connections.
 
-## setting up Xdebug
+## Setting up Xdebug
 
 There is a wiki page with [simple examples of Xdebug configurations](https://github.com/robertbasic/pugdebug/wiki/Setting-up-Xdebug) that should help with setting up Xdebug for remote debugging.
 
-## setting up the development environment
+## Setting up the development environment
 
 Setting up the development environment should be needed only when you want to help out with developing pugdebug itself. 
 
