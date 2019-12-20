@@ -213,7 +213,7 @@ class PugdebugDocumentContents(QPlainTextEdit):
     def set_editor_features(self):
         self.setTabStopWidth(int(get_setting('editor/tab_width')))
 
-        font = QFont('mono')
+        font = QFont()
         font.setPixelSize(int(get_setting('editor/font_size')))
         self.setFont(font)
 

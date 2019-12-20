@@ -64,8 +64,8 @@ class PugdebugNewProjectWindow(QDialog):
         self.setLayout(box_layout)
 
     def setup_fonts(self):
-        font = QFont('mono')
-        font.setStyleHint(QFont.Monospace)
+        font = QFont()
+        # font.setStyleHint(QFont.Monospace)
         font.setPixelSize(12)
         self.setFont(font)
 
